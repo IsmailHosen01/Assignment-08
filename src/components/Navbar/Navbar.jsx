@@ -35,7 +35,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <Link to='https://github.com/IsmailHosen01' target='blank' className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"> <i class="fa-brands fa-github"></i> Contribute</Link>
+                <Link to='https://github.com/IsmailHosen01' target='blank' className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white"> <i className="fa-brands fa-github"></i> Contribute</Link>
             </div>
         </div>
     );
