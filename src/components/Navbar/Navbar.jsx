@@ -5,9 +5,13 @@ import { Link, NavLink } from 'react-router';
 const Navbar = () => {
 
     const li = <>
-        <NavLink to='/'><li className='mr-3'>Home</li></NavLink>
-        <NavLink to='/apps'><li className='mr-3'>Apps</li></NavLink>
-        <NavLink><li className='mr-3'>Installation</li></NavLink>
+        <NavLink to='/' className={({ isActive }) =>
+            isActive ? 'text-purple-500 font-semibold' : 'hover:text-purple-400'}>
+            <li className='mr-3'>Home</li></NavLink>
+        <NavLink to='/apps' className={({ isActive }) =>
+            isActive ? 'text-purple-500 font-semibold' : 'hover:text-purple-400'}><li className='mr-3'>Apps</li></NavLink>
+        <NavLink to='/installed-apps' className={({ isActive }) =>
+            isActive ? 'text-purple-500 font-semibold' : 'hover:text-purple-400'}><li className='mr-3'>Installation</li></NavLink>
     </>
     return (
         <div className="navbar bg-base-100 shadow-sm md:px-10">
