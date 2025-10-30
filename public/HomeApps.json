@@ -1,0 +1,266 @@
+[
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRLdvYiApQJofXpIjkMrJgetTXWz5wKapxKeg&s",
+        "title": "Spotify",
+        "companyName": "Spotify AB",
+        "id": 1,
+        "description": "Stream millions of songs, podcasts, and playlists for free or with a premium subscription.",
+        "size": 45,
+        "reviews": 1250000,
+        "ratingAvg": 4.6,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25000
+            },
+            {
+                "name": "2 star",
+                "count": 32000
+            },
+            {
+                "name": "3 star",
+                "count": 74000
+            },
+            {
+                "name": "4 star",
+                "count": 210000
+            },
+            {
+                "name": "5 star",
+                "count": 936000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcS8lv-iEOWtRxGDqsOR-Pa1kIiqN298569zVA&s",
+        "title": "Instagram",
+        "companyName": "Meta Platforms, Inc.",
+        "id": 2,
+        "description": "Share your world through photos, videos, and reels. Stay connected with friends and creators.",
+        "size": 40,
+        "reviews": 2200000,
+        "ratingAvg": 4.4,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 110000
+            },
+            {
+                "name": "2 star",
+                "count": 160000
+            },
+            {
+                "name": "3 star",
+                "count": 290000
+            },
+            {
+                "name": "4 star",
+                "count": 580000
+            },
+            {
+                "name": "5 star",
+                "count": 1060000
+            }
+        ]
+    },
+    {
+        "image": "https://images.seeklogo.com/logo-png/34/1/canva-logo-png_seeklogo-340767.png",
+        "title": "Canva",
+        "companyName": "Canva Pty Ltd",
+        "id": 3,
+        "description": "Design presentations, social media graphics, and videos easily with Canva’s templates and tools.",
+        "size": 35,
+        "reviews": 780000,
+        "ratingAvg": 4.7,
+        "downloads": "250M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 10000
+            },
+            {
+                "name": "2 star",
+                "count": 15000
+            },
+            {
+                "name": "3 star",
+                "count": 42000
+            },
+            {
+                "name": "4 star",
+                "count": 160000
+            },
+            {
+                "name": "5 star",
+                "count": 553000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQRvoVCco76uIoAbrclJ9JPEHlWjLxZ8Jz0g&s",
+        "title": "Telegram",
+        "companyName": "Telegram FZ-LLC",
+        "id": 4,
+        "description": "Fast, secure, and private messaging app with cloud-based chat and powerful group features.",
+        "size": 32,
+        "reviews": 690000,
+        "ratingAvg": 4.5,
+        "downloads": "800M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 19000
+            },
+            {
+                "name": "2 star",
+                "count": 27000
+            },
+            {
+                "name": "3 star",
+                "count": 80000
+            },
+            {
+                "name": "4 star",
+                "count": 190000
+            },
+            {
+                "name": "5 star",
+                "count": 374000
+            }
+        ]
+    },
+    {
+        "image": "https://images.seeklogo.com/logo-png/45/1/duolingo-logo-png_seeklogo-458347.png",
+        "title": "Duolingo",
+        "companyName": "Duolingo, Inc.",
+        "id": 5,
+        "description": "Learn languages for free with fun, bite-sized lessons in over 30 languages.",
+        "size": 25,
+        "reviews": 540000,
+        "ratingAvg": 4.8,
+        "downloads": "350M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 6000
+            },
+            {
+                "name": "2 star",
+                "count": 9000
+            },
+            {
+                "name": "3 star",
+                "count": 24000
+            },
+            {
+                "name": "4 star",
+                "count": 105000
+            },
+            {
+                "name": "5 star",
+                "count": 396000
+            }
+        ]
+    },
+    {
+        "image": "https://static.vecteezy.com/system/resources/previews/017/396/804/non_2x/netflix-mobile-application-logo-free-png.png",
+        "title": "Netflix",
+        "companyName": "Netflix, Inc.",
+        "id": 6,
+        "description": "Stream popular movies, TV shows, and exclusive Netflix Originals anytime and anywhere.",
+        "size": 80,
+        "reviews": 2300000,
+        "ratingAvg": 4.3,
+        "downloads": "1B",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 190000
+            },
+            {
+                "name": "2 star",
+                "count": 220000
+            },
+            {
+                "name": "3 star",
+                "count": 330000
+            },
+            {
+                "name": "4 star",
+                "count": 600000
+            },
+            {
+                "name": "5 star",
+                "count": 960000
+            }
+        ]
+    },
+    {
+        "image": "https://static.vecteezy.com/system/resources/previews/017/396/810/non_2x/snapseed-by-google-free-png.png",
+        "title": "Snapseed",
+        "companyName": "Google LLC",
+        "id": 7,
+        "description": "Professional photo editor developed by Google with 29 editing tools and filters.",
+        "size": 27,
+        "reviews": 410000,
+        "ratingAvg": 4.7,
+        "downloads": "200M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 7000
+            },
+            {
+                "name": "2 star",
+                "count": 10000
+            },
+            {
+                "name": "3 star",
+                "count": 25000
+            },
+            {
+                "name": "4 star",
+                "count": 82000
+            },
+            {
+                "name": "5 star",
+                "count": 286000
+            }
+        ]
+    },
+    {
+        "image": "https://static.vecteezy.com/system/resources/previews/042/148/616/non_2x/pinterest-logo-pinterest-social-media-icon-free-png.png",
+        "title": "Pinterest",
+        "companyName": "Pinterest, Inc.",
+        "id": 8,
+        "description": "Discover and save creative ideas for cooking, fashion, home decor, and more.",
+        "size": 38,
+        "reviews": 870000,
+        "ratingAvg": 4.6,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 18000
+            },
+            {
+                "name": "2 star",
+                "count": 25000
+            },
+            {
+                "name": "3 star",
+                "count": 59000
+            },
+            {
+                "name": "4 star",
+                "count": 210000
+            },
+            {
+                "name": "5 star",
+                "count": 558000
+            }
+        ]
+    }
+]

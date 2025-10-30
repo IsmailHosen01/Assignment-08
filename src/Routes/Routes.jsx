@@ -11,8 +11,13 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
+                loader: () => fetch('/HomeApps.json'),
+                hydrateFallbackElement: <div className="flex items-center justify-center min-h-screen">
+                    <span className="loading loading-spinner loading-xl"></span>
+                </div>,
                 path: '/',
-                Component: Home
+                Component: Home,
+
             },
             {
                 path: '/apps',
