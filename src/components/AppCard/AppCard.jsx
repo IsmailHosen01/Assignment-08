@@ -1,10 +1,10 @@
 import React from 'react';
+import { Link } from 'react-router';
 
 const AppCard = ({ data }) => {
-    console.log(data)
-    const { title, image, downloads, ratingAvg } = data;
+    const {id, title, image, downloads, ratingAvg } = data;
     return (
-        <div className='bg-white p-4 rounded-lg shadow-sm space-y-3'>
+        <Link to={`/app-details/${id}`} className='bg-white p-4 rounded-lg shadow-sm space-y-3'>
             <div className='flex justify-center items-center'>
                 <img className='w-[300px] h-[300px] ' src={image} alt={title} />
             </div>
@@ -13,7 +13,7 @@ const AppCard = ({ data }) => {
                 <p className='text-[#00d390] font-medium'><i className="fa-solid fa-download"></i> {downloads}</p>
                 <p className='text-[#ff8811] font-medium'><i className="fa-solid fa-star"></i> {ratingAvg}</p>
             </div>
-        </div>
+        </Link>
     );
 };
 

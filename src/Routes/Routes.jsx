@@ -3,6 +3,7 @@ import Home from "../pages/Home/Home";
 import Root from "../pages/Root/Root";
 import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
+import AppDetails from "../pages/AppDetails/AppDetails";
 
 export const router = createBrowserRouter([
     {
@@ -11,7 +12,7 @@ export const router = createBrowserRouter([
         children: [
             {
                 index: true,
-                loader: () => fetch('/HomeApps.json'),
+                loader: () => fetch('/AllApps.json'),
                 hydrateFallbackElement: <div className="flex items-center justify-center min-h-screen">
                     <span className="loading loading-spinner loading-xl"></span>
                 </div>,
@@ -21,7 +22,19 @@ export const router = createBrowserRouter([
             },
             {
                 path: '/apps',
+                loader: () => fetch('/AllApps.json'),
+                hydrateFallbackElement: <div className="flex items-center justify-center min-h-screen">
+                    <span className="loading loading-spinner loading-xl"></span>
+                </div>,
                 Component: Apps
+            },
+            {
+                path: '/app-details/:id',
+                loader: () => fetch('/AllApps.json'),
+                hydrateFallbackElement: <div className="flex items-center justify-center min-h-screen">
+                    <span className="loading loading-spinner loading-xl"></span>
+                </div>,
+                Component: AppDetails
             },
             {
                 path: '/installed-apps',

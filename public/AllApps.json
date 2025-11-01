@@ -262,5 +262,269 @@
                 "count": 558000
             }
         ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTP_2ocy-aXMnWKWhBXTmHfLAy7xWR3WF2OJw&s",
+        "title": "YouTube",
+        "companyName": "Google LLC",
+        "id": 9,
+        "description": "Watch, upload, and share videos from all over the world.",
+        "size": 75,
+        "reviews": 6500000,
+        "ratingAvg": 4.5,
+        "downloads": "10B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 350000
+            },
+            {
+                "name": "2 star",
+                "count": 400000
+            },
+            {
+                "name": "3 star",
+                "count": 600000
+            },
+            {
+                "name": "4 star",
+                "count": 1500000
+            },
+            {
+                "name": "5 star",
+                "count": 3650000
+            }
+        ]
+    },
+    {
+        "image": "https://upload.wikimedia.org/wikipedia/commons/thumb/6/6b/WhatsApp.svg/2044px-WhatsApp.svg.png",
+        "title": "WhatsApp Messenger",
+        "companyName": "WhatsApp Inc.",
+        "id": 10,
+        "description": "Fast, simple, and secure messaging and calling for free worldwide.",
+        "size": 38,
+        "reviews": 4500000,
+        "ratingAvg": 4.5,
+        "downloads": "5B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 420000
+            },
+            {
+                "name": "4 star",
+                "count": 1000000
+            },
+            {
+                "name": "5 star",
+                "count": 2630000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQuB79MjNSFlE0-cyrc_pjYnXv7PcnM4EGXSw&s",
+        "title": "Zoom",
+        "companyName": "Zoom Video Communications",
+        "id": 11,
+        "description": "Video conferencing, meetings, and team collaboration made simple.",
+        "size": 55,
+        "reviews": 870000,
+        "ratingAvg": 4.6,
+        "downloads": "500M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 22000
+            },
+            {
+                "name": "2 star",
+                "count": 30000
+            },
+            {
+                "name": "3 star",
+                "count": 50000
+            },
+            {
+                "name": "4 star",
+                "count": 210000
+            },
+            {
+                "name": "5 star",
+                "count": 560000
+            }
+        ]
+    },
+    {
+        "image": "https://images.seeklogo.com/logo-png/49/2/twitter-x-logo-png_seeklogo-492396.png",
+        "title": "X (Twitter)",
+        "companyName": "X Corp.",
+        "id": 12,
+        "description": "Follow what's happening around the world in real time.",
+        "size": 58,
+        "reviews": 2400000,
+        "ratingAvg": 4.1,
+        "downloads": "1B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 150000
+            },
+            {
+                "name": "2 star",
+                "count": 190000
+            },
+            {
+                "name": "3 star",
+                "count": 250000
+            },
+            {
+                "name": "4 star",
+                "count": 700000
+            },
+            {
+                "name": "5 star",
+                "count": 1110000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRkPKagl5Az3J8XgqnSneFgKceE0HDuK6nnog&s",
+        "title": "LinkedIn",
+        "companyName": "LinkedIn Corporation",
+        "id": 13,
+        "description": "Connect with professionals, find jobs, and build your career profile.",
+        "size": 60,
+        "reviews": 1100000,
+        "ratingAvg": 4.4,
+        "downloads": "1B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 50000
+            },
+            {
+                "name": "2 star",
+                "count": 60000
+            },
+            {
+                "name": "3 star",
+                "count": 120000
+            },
+            {
+                "name": "4 star",
+                "count": 300000
+            },
+            {
+                "name": "5 star",
+                "count": 640000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRwV7aB2HJUXm9ny3SAvwLWnpw67-z3BPImvA&s",
+        "title": "Amazon Shopping",
+        "companyName": "Amazon Mobile LLC",
+        "id": 14,
+        "description": "Shop online for millions of products and get fast delivery with Amazon.",
+        "size": 72,
+        "reviews": 5500000,
+        "ratingAvg": 4.5,
+        "downloads": "1B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 300000
+            },
+            {
+                "name": "2 star",
+                "count": 350000
+            },
+            {
+                "name": "3 star",
+                "count": 500000
+            },
+            {
+                "name": "4 star",
+                "count": 1200000
+            },
+            {
+                "name": "5 star",
+                "count": 3150000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSf3Y9wtDBk52VMs-_K6EVUDn8GKooJriOMNw&s",
+        "title": "Adobe Photoshop Express",
+        "companyName": "Adobe Inc.",
+        "id": 15,
+        "description": "Edit photos, add filters, and create stunning images with Adobe tools.",
+        "size": 82,
+        "reviews": 1200000,
+        "ratingAvg": 4.6,
+        "downloads": "100M",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 25000
+            },
+            {
+                "name": "2 star",
+                "count": 35000
+            },
+            {
+                "name": "3 star",
+                "count": 60000
+            },
+            {
+                "name": "4 star",
+                "count": 250000
+            },
+            {
+                "name": "5 star",
+                "count": 880000
+            }
+        ]
+    },
+    {
+        "image": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTiAibtuIe2BI9kfJQE2nBDrdkgyBSrASSPWw&s",
+        "title": "Uber",
+        "companyName": "Uber Technologies Inc.",
+        "id": 16,
+        "description": "Book rides, share trips, and get around safely and easily.",
+        "size": 65,
+        "reviews": 3100000,
+        "ratingAvg": 4.2,
+        "downloads": "1B+",
+        "ratings": [
+            {
+                "name": "1 star",
+                "count": 200000
+            },
+            {
+                "name": "2 star",
+                "count": 250000
+            },
+            {
+                "name": "3 star",
+                "count": 350000
+            },
+            {
+                "name": "4 star",
+                "count": 800000
+            },
+            {
+                "name": "5 star",
+                "count": 1500000
+            }
+        ]
     }
 ]

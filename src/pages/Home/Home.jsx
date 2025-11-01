@@ -5,6 +5,7 @@ import AppCard from '../../components/AppCard/AppCard';
 
 const Home = () => {
     const homeData = useLoaderData();
+    const firstEight = homeData.slice(0, 8);
     return (
         <div>
             <Hero></Hero>
@@ -13,9 +14,9 @@ const Home = () => {
                 <h2 className='text-[#001931] text-5xl font-bold text-center pt-10'>Trending Apps</h2>
                 <p className='text-[#627382] text-center mt-3'>Explore All Trending Apps on the Market developed by us</p>
 
-                <div className='max-w-[1440px] mx-auto grid grid-cols-4 gap-5 mt-5'>
+                <div className='max-w-[1440px] mx-auto grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-5 mt-5'>
                     {
-                        homeData.map(data => <AppCard key={data.id} data={data}></AppCard>)
+                        firstEight.map(data => <AppCard key={data.id} data={data}></AppCard>)
                     }
                 </div>
 
