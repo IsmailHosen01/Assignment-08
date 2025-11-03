@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useState } from 'react';
 import { useLoaderData, useParams } from 'react-router';
 import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
@@ -7,6 +7,7 @@ import MyBarChart from '../../components/MyBarChart/MyBarChart';
 
 
 const AppDetails = () => {
+    const [install, setInstall] = useState(false)
     const { id } = useParams();
     const appsData = useLoaderData();
     const clickedApp = appsData.find(app => app.id == id);
@@ -35,7 +36,7 @@ const AppDetails = () => {
                             <h4 className='text-4xl font-extrabold text-[#001931]'>{reviews}</h4>
                         </div>
                     </div>
-                    <button className='btn bg-[#00d390] px-5 py-3 text-white'>Install Now ({size})</button>
+                    <button disabled={install} onClick={() => setInstall(true)} className={`btn px-5 py-3 text-white ${install? 'bg-gray-400' : 'bg-[#00d390]'}`}>{install ? 'Installed' : `Install Now (${size})`} </button>
                 </div>
             </div>
 
