@@ -4,12 +4,17 @@ import downloadIcon from '../../assets/icon-downloads.png';
 import ratingIcon from '../../assets/icon-ratings.png';
 import reviewIcon from '../../assets/icon-review.png'
 import MyBarChart from '../../components/MyBarChart/MyBarChart';
+import { ToastContainer, toast } from 'react-toastify';
 
 
 const AppDetails = () => {
     const [install, setInstall] = useState(false)
     const { id } = useParams();
     const appsData = useLoaderData();
+    const handleInstallButton = () => {
+        setInstall(true);
+        toast.success("App Installed Successfully!")
+    }
     const clickedApp = appsData.find(app => app.id == id);
     const { image, title, companyName, description, size, reviews, ratingAvg, downloads, ratings } = clickedApp;
     return (
@@ -36,7 +41,7 @@ const AppDetails = () => {
                             <h4 className='text-4xl font-extrabold text-[#001931]'>{reviews}</h4>
                         </div>
                     </div>
-                    <button disabled={install} onClick={() => setInstall(true)} className={`btn px-5 py-3 text-white ${install? 'bg-gray-400' : 'bg-[#00d390]'}`}>{install ? 'Installed' : `Install Now (${size})`} </button>
+                    <button disabled={install} onClick={handleInstallButton} className={`btn px-5 py-3 text-white ${install? 'bg-gray-400' : 'bg-[#00d390]'}`}>{install ? 'Installed' : `Install Now (${size})`} </button>
                 </div>
             </div>
 
@@ -49,6 +54,7 @@ const AppDetails = () => {
                 <h3 className='text-2xl font-semibold text-[#001931] mb-3'>Description</h3>
                 <p className='text-xl text-[#627382]'>{description}</p>
             </div>
+            <ToastContainer />
         </div>
     );
 };

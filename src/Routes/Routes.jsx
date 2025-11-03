@@ -4,11 +4,14 @@ import Root from "../pages/Root/Root";
 import Apps from "../pages/Apps/Apps";
 import Installation from "../pages/Installation/Installation";
 import AppDetails from "../pages/AppDetails/AppDetails";
+import ErrorPage from "../pages/ErrorPage/ErrorPage";
+import AppErrorPage from "../pages/AppErrorPage/AppErrorPage";
 
 export const router = createBrowserRouter([
     {
         path: "/",
         Component: Root,
+        errorElement: <ErrorPage></ErrorPage>,
         children: [
             {
                 index: true,
@@ -18,7 +21,6 @@ export const router = createBrowserRouter([
                 </div>,
                 path: '/',
                 Component: Home,
-
             },
             {
                 path: '/apps',
@@ -34,6 +36,7 @@ export const router = createBrowserRouter([
                 hydrateFallbackElement: <div className="flex items-center justify-center min-h-screen">
                     <span className="loading loading-spinner loading-xl"></span>
                 </div>,
+                errorElement: <AppErrorPage></AppErrorPage>,
                 Component: AppDetails
             },
             {
